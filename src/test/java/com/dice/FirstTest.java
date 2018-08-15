@@ -22,11 +22,16 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class FirstTest {
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 9e1ec6bf8e78328ec5bdf0ab6f7bc4fc511bd59b
 
 
 
 
-    WebDriver driver = new ChromeDriver();
+    WebDriver driver = 
+     new ChromeDriver();
 
 
     WebDriverWait wait = new WebDriverWait(driver, 20);
