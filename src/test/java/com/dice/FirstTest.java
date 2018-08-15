@@ -22,7 +22,6 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class FirstTest {
-    //Hello
 
 
 
@@ -34,6 +33,7 @@ public class FirstTest {
 
     @Test
     public void firstTestMethod(){
+
         driver.manage().window().maximize();
 
         driver.get("https://www.dice.com/");
