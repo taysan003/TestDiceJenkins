@@ -22,6 +22,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class FirstTest {
+    //Hello
 
 
 
@@ -29,8 +30,7 @@ public class FirstTest {
     WebDriver driver = new ChromeDriver();
 
 
-    WebDriverWait wait =
-            new WebDriverWait(driver, 20);
+    WebDriverWait wait = new WebDriverWait(driver, 20);
 
     @Test
     public void firstTestMethod(){
